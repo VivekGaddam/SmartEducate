@@ -1,33 +1,42 @@
-# Core FastAPI app
+# FastAPI and server essentials
 fastapi==0.104.1
 uvicorn==0.24.0
 python-multipart==0.0.6
 pydantic==2.5.2
 python-dotenv==1.0.0
 requests==2.31.0
+
+# Jinja2 templating (used for dynamic prompt templates)
 jinja2==3.1.2
 
 # Google Gemini SDK
 google-generativeai==0.3.2
 
-# MongoDB
+# MongoDB client
 pymongo==4.6.0
 
 # For file/image handling
 pillow==10.1.0
+opencv-python==4.9.0.80
 
-# RAG: Vector DB and retrieval
+# RAG: Vector database and config
 chromadb==0.4.22
 
-# NLP: Embeddings + retrieval
+# NLP: Embeddings and similarity
 sentence-transformers==2.2.2
 transformers==4.31.0
 huggingface_hub==0.16.4
 torch>=1.12.1
 
-# Machine Learning (optional for custom similarity or clustering)
+# ML utilities
 numpy>=1.21.0
 scikit-learn>=1.0.0
 
-# Optional cleanup
-optree>=0.13.0  # To silence PyTorch warnings
+# DeepFace (for face recognition)
+deepface==0.0.79
+
+# Logging and utility
+optree>=0.13.0  # Optional, for PyTorch warnings
+
+# (Optional) concurrency utils
+concurrent-log-handler==0.9.20
