@@ -1,0 +1,84 @@
+# ===========================
+# Node.js / Express / React
+# ===========================
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+.env
+.env.*.local
+.env.local
+dist/
+build/
+coverage/
+*.local
+.vscode/
+
+# React specific
+*.log
+*.lock
+*.DS_Store
+.cache/
+public/build/
+*.env
+*.env.local
+*.env.development.local
+*.env.test.local
+*.env.production.local
+
+# ===========================
+# Python / FastAPI / AI
+# ===========================
+__pycache__/
+*.py[cod]
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+*.log
+*.sqlite3
+.env
+.venv/
+venv/
+ENV/
+env/
+.idea/
+*.db
+*.pkl
+*.pt
+*.h5
+*.ckpt
+*.model
+.mypy_cache/
+.pytest_cache/
+.ipynb_checkpoints/
+Pipfile.lock
+poetry.lock
+*.onnx
+.DS_Store
+
+# Jupyter
+*.ipynb
+.ipynb_checkpoints/
+
+# VS Code
+.vscode/
+
+# ================
+# MongoDB Dumps
+# ================
+dump/
+*.bson
+*.json
+
+# ===========================
+# OS & Misc
+# ===========================
+Thumbs.db
+Desktop.ini
+.DS_Store
+*.swp
+*.bak
+*.tmp
